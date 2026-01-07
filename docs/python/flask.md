@@ -47,10 +47,10 @@ git remote add origin <repo-url>
 git push -u origin main
 
 ```
+Acede ao painel do Wolke
 
 Criar o Projecto no Wolke
 
-Acede ao painel do Wolke
 
 Cria um novo projecto
 
