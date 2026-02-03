@@ -184,8 +184,6 @@ Para rodar migrações automaticamente a cada deploy, adiciona este comando no c
 python manage.py migrate
 ```
 
-> Se preferires, também podes executar migrações como comando one‑off pelo painel.
-
 ## Health Check
 
 Usa o endpoint `/healthz/` e configura o health check no wolke apontando para este caminho.
