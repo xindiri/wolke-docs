@@ -39,3 +39,31 @@ Ao selecionar a opção, será exibido o ecrã **"Create Pipeline"**, onde dever
 3. **Finalização:** Após definir o nome, a aplicação e o estágio correspondente, clique no botão **"Create pipeline"** no canto inferior direito para ativar o seu novo fluxo de trabalho.
 
 ---
+
+## Como adicionar uma aplicação à uma pipeline existente
+
+Adicionar aplicações a uma pipeline já criada no **wolke.host** é um processo dinâmico que pode ser feito diretamente na visualização dos estágios da pipeline (Development, Staging, Production).
+
+### Passo 1: Iniciar a Adição
+
+Aceda aos detalhes da sua pipeline a partir da [listagem de apps](https://wolke.host/app) e selecione a pipeline pretendida, e tendo aberto, verá uma tela como a seguinte:
+![Image 06](../screenshots/pipelines/image_6.png)
+Em qualquer um dos estágios (ex: Development), clique no botão **"Add app"**. Irá aparecer um campo de pesquisa e opções de criação.
+
+### Passo 2: Escolher o Caminho de Adição
+
+Tem duas formas de incluir uma aplicação no estágio selecionado:
+
+#### 1. **Adicionar App Existente (Search)**
+
+- No campo **"Search for existing apps..."**, comece a digitar o nome da aplicação que já possui no Wolke.
+  ![Image 07](../screenshots/pipelines/image_7.png)
+- Assim que a aplicação aparecer nos resultados, basta **clicar sobre ela** e será instantaneamente vinculada a esse estágio da pipeline.
+  ![Image 08](../screenshots/pipelines/image_8.png)
+
+#### 2. **Criar Nova App (Workflow Integrado)**
+
+- Se a aplicação ainda não existe, depois de clicar no botão **"Add app"**, clique no botão **"Create new app..."** que aparece ao lado do campo **"Search for existing apps..."**.
+- Siga os passos de configuração da nova aplicação.
+  ![Image 09](../screenshots/pipelines/image_9.png)
+- **Nota:** Assim que terminar o processo de configuração e clicar em **Deploy**, a aplicação será automaticamente adicionada à pipeline no estágio onde iniciou o processo.
